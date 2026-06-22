@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8527e855fa444c4be9de64378d88f223, type: 3}
+  m_Name: 2_Limit-Ed_1_coloring
+  m_EditorClassIdentifier:
+  FurTexture: {fileID: 2800000, guid: cb57bedbdb0e8154d82f17ee3b3755ca, type: 3}
+  EggTexture: {fileID: 2800000, guid: 1bd2c762d2b8c9d4bbd651e555755379, type: 3}
+  BitsTexture: {fileID: 2800000, guid: 1340c710aaa41f148b0f65ae5e846369, type: 3}
+  tilingX: 1
+  tilingY: 1

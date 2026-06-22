@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: PROP_balloon03_MAT
+  m_Shader: {fileID: 4800000, guid: 1ffed575d2aeb30418afb86405346c5c, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 68a2245c39b57534984aab09aa94c838, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CubeTex
+        second:
+          m_Texture: {fileID: 8900000, guid: 08ffc567d4c947645a8c573df81f7082, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Ramp2D
+        second:
+          m_Texture: {fileID: 2800000, guid: 7167254789cdd88499a1ee04a9df9115, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 0.7
+      data:
+        first:
+          name: _WiggleStrength
+        second: 0.048076924
+      data:
+        first:
+          name: _NumAtlasesX
+        second: 1
+      data:
+        first:
+          name: _Gloss
+        second: 0.06
+      data:
+        first:
+          name: _Specular
+        second: 1
+      data:
+        first:
+          name: _AnisoOffset
+        second: -0.2
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0, g: 0.95804214, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: 0.43305862, g: 0.53731346, b: 0.53293914, a: 0.5019608}
+      data:
+        first:
+          name: _SpecularHighlightColor
+        second: {r: 0.86567163, g: 1, b: 0.9837625, a: 1}

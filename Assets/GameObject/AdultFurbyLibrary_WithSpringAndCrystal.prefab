@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &147589
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 479954}
+  - 114: {fileID: 11409266}
+  m_Layer: 0
+  m_Name: AdultFurbyLibrary_WithSpringAndCrystal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &479954
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11409266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c966adc9625a75957d767088de2814f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_furbies:
+  - {fileID: 11400000, guid: c2f4f3d4ed92a0b4c850b366a3217e53, type: 2}
+  - {fileID: 11400000, guid: 0dedb06a1d55faa4db980221f102128b, type: 2}
+  - {fileID: 11400000, guid: e5703a1b197bb224e9048e37f2cb2a40, type: 2}
+  - {fileID: 11400000, guid: 492affc9fd383af4cb49ed9a3e7a7697, type: 2}
+  - {fileID: 11400000, guid: cadf23cc2d1e5cf4582ee6a823adef83, type: 2}
+  - {fileID: 11400000, guid: 09dc803f7daf30847a964e0f4c5134b8, type: 2}
+  - {fileID: 11400000, guid: 1b59479913164914ab1074013768324a, type: 2}
+  - {fileID: 11400000, guid: 9dbc9210bd82a0e4f9f4c1003bcf730d, type: 2}
+  - {fileID: 11400000, guid: 8204b070a5d6e114cb632fc3e247dc13, type: 2}
+  - {fileID: 11400000, guid: d9d2c0071a0814f42b72c3d1d05f669e, type: 2}
+  - {fileID: 11400000, guid: 6ee628bb118816446b1d8f861886c7ee, type: 2}
+  - {fileID: 11400000, guid: 17bf3afaa5e606d4cb8b71dd5f674d84, type: 2}
+  - {fileID: 11400000, guid: 9f0cd0426646a4e41970dcb2bf50dc08, type: 2}
+  - {fileID: 11400000, guid: fc0198f81f62dd3418a2337a25409d0d, type: 2}
+  - {fileID: 11400000, guid: 7627e8ea1786972459ad5ebb807f478b, type: 2}
+  - {fileID: 11400000, guid: d6a67ff36e86cee459fc0c1d2c3dda15, type: 2}
+  - {fileID: 11400000, guid: 6e6eefd8ffa561647aca69a3a2bf7cd2, type: 2}
+  - {fileID: 11400000, guid: 74511defff4c631479690382dcd2867c, type: 2}
+  - {fileID: 11400000, guid: f4c7725082423384fa103bc217b19b74, type: 2}
+  - {fileID: 11400000, guid: 3128ee2f76f05dd40b7ad904ddb39968, type: 2}
+  - {fileID: 11400000, guid: 22f04eda273670a44b8b913933b556bd, type: 2}
+  - {fileID: 11400000, guid: 1b2f6d0437f24b049bbc74902f7da258, type: 2}
+  - {fileID: 11400000, guid: 3f3c1a651e337874cb6acc44b60b913b, type: 2}
+  - {fileID: 11400000, guid: 68447e93b42a6454598f1e65e72a086a, type: 2}
+  - {fileID: 11400000, guid: e8c89f0d6735f1945a2d3e409b789ef5, type: 2}
+  m_unlockLevels: {fileID: 11400000, guid: a89c583afc0abab4684117eb71194629, type: 2}
+  m_xpLevels: {fileID: 11400000, guid: 002bbe011476c1e4b8c9c102a2b3fe58, type: 2}
+  m_eggCost: {fileID: 11400000, guid: 223471b5e2252af429001437dcd229bb, type: 2}
+  m_noFurbyData: {fileID: 0}
+  m_LastIndex_MainTribes: 12
+  m_LastIndex_Spring: 18
+  m_LastIndex_Crystal: 24
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 147589}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

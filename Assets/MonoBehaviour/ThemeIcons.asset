@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f5566907170da3f616f18081a4de3c7, type: 3}
+  m_Name: ThemeIcons
+  m_EditorClassIdentifier:
+  m_atlas: {fileID: 11409266, guid: 439c84937ea97604583f7084a76ba9ac, type: 2}
+  m_icons:
+  - period: {fileID: 11400000, guid: 680e85f866bec934b9bccadb9c9b8599, type: 2}
+    spriteName: GUI_seasons_xmasIcon
+  - period: {fileID: 11400000, guid: 203ce1c39bf7eab468bcb691835f432d, type: 2}
+    spriteName: GUI_seasons_CNYIcon
+  - period: {fileID: 11400000, guid: d870413d12f6d974cb8f8e38bc84909e, type: 2}
+    spriteName: GUI_seasons_easterIcon
+  - period: {fileID: 11400000, guid: b09decb9e3d250a4895a6ffad6e2a4bc, type: 2}
+    spriteName: GUI_seasons_valentinesIcon
+  - period: {fileID: 11400000, guid: d117e434898aab948bb65388a9eb783b, type: 2}
+    spriteName: GUI_seasons_halloweenIcon
+  - period: {fileID: 11400000, guid: ab3588e23367cbb43b68c0b6b779b4ee, type: 2}
+    spriteName: GUI_seasons_worldCupIcon

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb524036ef492eca6369af0e9df1a89, type: 3}
+  m_Name: Hearts
+  m_EditorClassIdentifier:
+  m_adultType: 5
+  m_colouring:
+    FurTexture: {fileID: 2800000, guid: 5fa45238b1057d649a57ca3103b8036c, type: 3}
+    FurMaterialHigh: {fileID: 0}
+    FeetColor: {fileID: 11400000, guid: 178ce3c8ec2029543af2bb7b040e8c27, type: 2}
+    EyeColor: {fileID: 11400000, guid: e234926f155f26c43bf75e7f946a7e77, type: 2}
+    EarColor: {fileID: 11400000, guid: f4839c0e7e44b154c9a873ce88299206, type: 2}
+    EyelidColor: {fileID: 11400000, guid: 450531fca424f8546a671ad76afdadf0, type: 2}
+    FurbySpriteName: CH_furbyAdult_Hearts
+  m_tribe: {fileID: 11400000, guid: 49b003d7b2d266941aeb3bc51a21fa0a, type: 2}
+  m_LastIndex_MainTribes: 11
+  m_LastIndex_Spring: 17
+  m_LastIndex_Crystal: 23
+  m_unlockOrder: 050000000b0000000a000000080000000900000003000000060000000000000002000000070000000400000001000000100000000f0000001200000011000000140000001300000018000000170000001600000015000000190000001a000000
+  m_babyTypes:
+  - {fileID: 11400000, guid: 46b834d8398d84a4c9cd0d9ed609fb7b, type: 2}
+  - {fileID: 11400000, guid: 621979e715778ba4d8da3664eb0a9c55, type: 2}
+  - {fileID: 11400000, guid: 74bc5dd641ecf0043a7c691a58d39f1f, type: 2}
+  - {fileID: 11400000, guid: 759733749f006cd4c879418d941c8362, type: 2}
+  - {fileID: 11400000, guid: ac08e2cd1a308f842b614137a96e335b, type: 2}
+  - {fileID: 11400000, guid: 550378ec98363bc41a551fcb14d38044, type: 2}
+  - {fileID: 11400000, guid: 9e9237d0bab1ca441bfe81da35aa5c36, type: 2}
+  - {fileID: 11400000, guid: e7e32346347c46242aea88841e1bbbf0, type: 2}
+  m_maxFurbyBabiesOfType: 5

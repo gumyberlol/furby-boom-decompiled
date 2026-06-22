@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8527e855fa444c4be9de64378d88f223, type: 3}
+  m_Name: 1_SpringDiamond_coloring
+  m_EditorClassIdentifier:
+  FurTexture: {fileID: 2800000, guid: ab5bf72ef3022604ea42aa913cd7049b, type: 3}
+  EggTexture: {fileID: 2800000, guid: f8fd20dbeb832d349a9e1597e6663929, type: 3}
+  BitsTexture: {fileID: 2800000, guid: 18e27b1fb1f5e2741bfbf3f13bf10fb8, type: 3}
+  tilingX: 1
+  tilingY: 1

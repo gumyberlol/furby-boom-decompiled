@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8527e855fa444c4be9de64378d88f223, type: 3}
+  m_Name: Promo_Baby_11_coloring
+  m_EditorClassIdentifier:
+  FurTexture: {fileID: 2800000, guid: f1a498cd70c513346b367a87784a9398, type: 3}
+  EggTexture: {fileID: 2800000, guid: 3419f14305aa29c42b371a096b445f6a, type: 3}
+  BitsTexture: {fileID: 2800000, guid: 321b1327e88d5a646b95422b33513bb4, type: 3}
+  tilingX: 1
+  tilingY: 1

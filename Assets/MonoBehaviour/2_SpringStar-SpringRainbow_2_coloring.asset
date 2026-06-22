@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8527e855fa444c4be9de64378d88f223, type: 3}
+  m_Name: 2_SpringStar-SpringRainbow_2_coloring
+  m_EditorClassIdentifier:
+  FurTexture: {fileID: 2800000, guid: ab0846cb5345d074cb34f0ddfc537515, type: 3}
+  EggTexture: {fileID: 2800000, guid: da0136f3573e7eb4f8aa930014a39cff, type: 3}
+  BitsTexture: {fileID: 2800000, guid: 6240cda278e52e54da14985e6a122467, type: 3}
+  tilingX: 1
+  tilingY: 1

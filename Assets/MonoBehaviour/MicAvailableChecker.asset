@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ca7d058fd9f2f4e7593706a223b5c6e, type: 3}
+  m_Name: MicAvailableChecker
+  m_EditorClassIdentifier:
+  m_errorDialog: {fileID: 11465029, guid: 91530ea0fd991f6428bcc595651240f9, type: 2}
+  m_forceUnavailableForDebugging: 0
+  m_textScale: 0.5

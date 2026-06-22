@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb524036ef492eca6369af0e9df1a89, type: 3}
+  m_Name: SpringStar
+  m_EditorClassIdentifier:
+  m_adultType: 17
+  m_colouring:
+    FurTexture: {fileID: 2800000, guid: 3f4ee55fda61e3e47bd60171c87cf4a8, type: 3}
+    FurMaterialHigh: {fileID: 0}
+    FeetColor: {fileID: 11400000, guid: f4839c0e7e44b154c9a873ce88299206, type: 2}
+    EyeColor: {fileID: 11400000, guid: 46d607d9b77280a4aa3de7b652d04cd2, type: 2}
+    EarColor: {fileID: 11400000, guid: f4839c0e7e44b154c9a873ce88299206, type: 2}
+    EyelidColor: {fileID: 11400000, guid: f4839c0e7e44b154c9a873ce88299206, type: 2}
+    FurbySpriteName: CH_furbyAdult_SpringStar
+  m_tribe: {fileID: 11400000, guid: 4d03fdaa54420874895e299660a3550f, type: 2}
+  m_LastIndex_MainTribes: 17
+  m_LastIndex_Spring: 17
+  m_LastIndex_Crystal: 23
+  m_unlockOrder: 11000000120000000f000000100000001400000013000000020000000700000003000000090000000b000000050000000600000000000000080000000a000000040000000100000015000000160000001700000018000000190000001a000000
+  m_babyTypes:
+  - {fileID: 11400000, guid: dd1f2b6ce7ee8af40a8855c36f8ab9d9, type: 2}
+  - {fileID: 11400000, guid: 0310223c196a14341941024bdc59b4ad, type: 2}
+  - {fileID: 11400000, guid: 4bb55c2f2fe16284a9759eee6dc4ceeb, type: 2}
+  - {fileID: 11400000, guid: 05e204490c86b4b49807103bf8d85162, type: 2}
+  - {fileID: 11400000, guid: 95ccdbeb70b5325408a4657d97ecfa7f, type: 2}
+  - {fileID: 11400000, guid: 70d904c8a075f584f8163840e703c725, type: 2}
+  - {fileID: 11400000, guid: b448ce79c3d5ce64a8b78fb84aee4efd, type: 2}
+  - {fileID: 11400000, guid: 1480164d1b5f6d942bd052265a4438fa, type: 2}
+  m_maxFurbyBabiesOfType: 5

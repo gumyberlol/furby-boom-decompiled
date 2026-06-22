@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a732015b0fb5fe8f54a924cac444fb3, type: 3}
+  m_Name: SpringHound-SpringZigZag
+  m_EditorClassIdentifier:
+  m_name: SpringHoundstooth-SpringEaster
+  m_parentA: 19
+  m_parentB: 20
+  m_tribeSet: 3
+  m_babyUnlockLevels:
+  - BabyTypes:
+    - {fileID: 11400000, guid: 9d71ad54dd23a3d4aa3194287a5e84f3, type: 2}
+    - {fileID: 11400000, guid: fdbe05752f7562444b617036da07a3a7, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 938663d4d49805b4aa7ffe6850a2f5aa, type: 2}
+    - {fileID: 11400000, guid: cb4cea5ba43fd0f429b53cef02508cec, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 6c36008a5a5df5c46b913229c0ced3da, type: 2}
+    - {fileID: 11400000, guid: 7e40e6fc95467e0479e436f36140cebd, type: 2}
+    - {fileID: 11400000, guid: 04df0582f50fa844bbc30f6e4f92fccf, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 53370d219dad5284f9f8b38977cf217f, type: 2}
+  m_tribeCubemap: {fileID: 0}
+  m_bitsShader: {fileID: 0}
+  m_faceShader: {fileID: 0}
+  m_eggShader: {fileID: 0}

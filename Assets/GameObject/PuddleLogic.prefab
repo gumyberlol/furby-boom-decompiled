@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &147589
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 479954}
+  - 114: {fileID: 11409266}
+  - 114: {fileID: 11405782}
+  m_Layer: 0
+  m_Name: PuddleLogic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &479954
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.9655094, y: 9.907334, z: -26.907085}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11409266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1de5ffd59c7b6d39d4d31710549065a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_cleanliness: 1
+  m_prefab: {fileID: 147589, guid: 75c6e4b4f08893a4e8e105c5a9265e86, type: 2}
+  m_colourClip: {fileID: 7400000, guid: 29a7bbed3fa4b8a48b8687aa8b602e8c, type: 2}
+  m_timeToClearFromDirty: 10
+  m_ColourAnimMixingTransform: {fileID: 472700, guid: 75c6e4b4f08893a4e8e105c5a9265e86, type: 2}
+--- !u!114 &11405782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e88202047b2cc98cdc24ae313760b8a8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_anim: {fileID: 0}
+  m_arrivalClip: {fileID: 7400000, guid: 8e76d82070b3c9f4d8ba04196cbdea97, type: 2}
+  m_idleClip: {fileID: 7400000, guid: 180d95aa2d6de3a4f8d9853f91f1c123, type: 2}
+  m_dispersalClip: {fileID: 7400000, guid: 3d8eabc3672974740a5f28a414aafb7a, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 147589}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

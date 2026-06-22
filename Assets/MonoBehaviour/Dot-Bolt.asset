@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a732015b0fb5fe8f54a924cac444fb3, type: 3}
+  m_Name: Dot-Bolt
+  m_EditorClassIdentifier:
+  m_name: Dot-Bolt
+  m_parentA: 0
+  m_parentB: 6
+  m_tribeSet: 0
+  m_babyUnlockLevels:
+  - BabyTypes:
+    - {fileID: 11400000, guid: c91a700636f2a7547befc11398e1846d, type: 2}
+    - {fileID: 11400000, guid: 401129399baa43a48abdb4d5c3eeb6e7, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 254ed6c301dac6b4f95cf1f880ef3782, type: 2}
+    - {fileID: 11400000, guid: 41f56953b7152bc46b149348f0b781c7, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: 171e2cca7d6ad50489e5beba71778311, type: 2}
+    - {fileID: 11400000, guid: dc0d13e308012eb42b2ec4980c4e4fee, type: 2}
+    - {fileID: 11400000, guid: bb9a12e49b471f149803c0694032386a, type: 2}
+  - BabyTypes:
+    - {fileID: 11400000, guid: c47d01d96a5595f43925bda5aa6eb1bb, type: 2}
+  m_tribeCubemap: {fileID: 0}
+  m_bitsShader: {fileID: 0}
+  m_faceShader: {fileID: 0}
+  m_eggShader: {fileID: 0}

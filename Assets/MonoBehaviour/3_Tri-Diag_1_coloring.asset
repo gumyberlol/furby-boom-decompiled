@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8527e855fa444c4be9de64378d88f223, type: 3}
+  m_Name: 3_Tri-Diag_1_coloring
+  m_EditorClassIdentifier:
+  FurTexture: {fileID: 2800000, guid: 9a34e8635c576fc419fbaea3321caa99, type: 3}
+  EggTexture: {fileID: 2800000, guid: 96de4d95b27eb6041be95c12e97b3c28, type: 3}
+  BitsTexture: {fileID: 2800000, guid: 2d93ab64634191446b232d1d2a453a1c, type: 3}
+  tilingX: 1
+  tilingY: 1

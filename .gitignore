@@ -1,0 +1,40 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Assets/AssetStoreTools*
+
+# Unity3D generated meta files are IMPORTANT - do NOT ignore them!
+# *.meta
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Visual Studio / Rider
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+
+# Logs
+*.log
+
+# Asset bundle artifacts (these get rebuilt)
+Assets/StreamingAssets/Generated/
+
+# Python server stuff (not part of decomp)
+server/
+*.pyc
+__pycache__/

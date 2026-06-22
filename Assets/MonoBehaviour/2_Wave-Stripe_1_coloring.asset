@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8527e855fa444c4be9de64378d88f223, type: 3}
+  m_Name: 2_Wave-Stripe_1_coloring
+  m_EditorClassIdentifier:
+  FurTexture: {fileID: 2800000, guid: 242ae05528e1bda41bfb6b93b6f5bfcb, type: 3}
+  EggTexture: {fileID: 2800000, guid: 2b5715b7287b1284591d64cab472fa96, type: 3}
+  BitsTexture: {fileID: 2800000, guid: 1c47d49d0bea4c84ca717b7f8eae61bf, type: 3}
+  tilingX: 1
+  tilingY: 1

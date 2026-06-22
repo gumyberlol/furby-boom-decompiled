@@ -1,0 +1,19 @@
+Shader "Particles/VertexLit Blended" {
+Properties { _MainTex ("Particle Texture", 2D) = "white" {} _EmisColor ("Emissive Color", Color) = (0.2,0.2,0.2,0) }
+SubShader {
+    Tags { "Queue"="Transparent" "IgnoreProjector"="true" "RenderType"="Transparent" }
+    Pass {
+        ZWrite Off Blend SrcAlpha OneMinusSrcAlpha Cull Off Fog { Mode Off } Lighting On
+        CGPROGRAM
+        #pragma vertex vert
+        #pragma fragment frag
+        #include "UnityCG.cginc"
+        sampler2D _MainTex;
+        struct a { float4 v:POSITION; fixed4 c:COLOR; float2 u:TEXCOORD0; };
+        struct v { float4 p:SV_POSITION; fixed4 c:COLOR; float2 u:TEXCOORD0; };
+        v vert(a i) { v o; o.p=mul(UNITY_MATRIX_MVP,i.v); o.c=i.c; o.u=i.u; return o; }
+        fixed4 frag(v i):SV_Target { return tex2D(_MainTex,i.u)*i.c; }
+        ENDCG
+    }
+}
+}
