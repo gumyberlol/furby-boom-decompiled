@@ -10,6 +10,7 @@ You will need [Unity 4.5.0](https://archive.org/details/old-unity-editor-archive
 # Current bugs
 - The furbling drink animation does not work.
 - Some particles may be broken.
+- Anything using the camera might crash the game (or it's just an issue I'm getting through wine
 
 # Important stuff
 You will need to grab the Furby BOOM! v1.9.0 .obb file and put the Generated folder into StreamingAssets. Without it, parts of the game will not work.
