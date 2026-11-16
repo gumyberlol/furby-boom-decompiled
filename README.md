@@ -1,6 +1,6 @@
 Decompilation of "Furby BOOM!" v1.9.0.
 
-This is a decompilation of the [Furby BOOM! mobile app](https://official-furby.fandom.com/wiki/Furby_Boom!_(app)).
+This is a decompilation of the [Furby BOOM! mobile app](https://furby.wiki/wiki/Furby_Boom!_(app)).
 
 # Requirements
 You will need [Unity 4.5.0](https://archive.org/details/old-unity-editor-archive) with a pro licence.
